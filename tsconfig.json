@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+      
+    },
+    "include": [
+      "cypress",
+      "cypress.config.ts",
+    ],
+    "exclude": ["**/*.generated.*"]
+  }

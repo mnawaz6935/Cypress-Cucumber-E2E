@@ -1,0 +1,25 @@
+{
+  "name": "computer_e2e",
+  "version": "1.0.0",
+  "description": "Automation for https://computer-database.gatling.io",
+  "main": "index.js",
+  "scripts": {
+    "report": "node cucumber-html-report.js",
+    "chrome-test": "npx cypress run --browser chrome",
+    "chrome-tests-run": "npm run chrome-test || npm run report"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "Cypress_Cucumbers",
+  "license": "ISC",
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^16.0.3",
+    "@cypress/webpack-preprocessor": "^5.17.1",
+    "cypress": "^12.9.0",
+    "multiple-cucumber-html-reporter": "^3.3.0",
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.0.4",
+    "webpack": "^5.79.0"
+  }
+}
