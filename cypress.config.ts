@@ -48,7 +48,7 @@ async function setupNodeEvents(
 
 export default defineConfig({
   projectId: "",
-  video: false,
+  video: true,
   trashAssetsBeforeRuns: true,
   chromeWebSecurity: false,
   watchForFileChanges: false,
